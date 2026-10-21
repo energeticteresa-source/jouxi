@@ -1,0 +1,60 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf9f6;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+.logo {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f4f0ea;
+}
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 5%;
+    flex-wrap: wrap;
+}
+.product-card {
+    background: white;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+.product-img {
+    font-size: 50px;
+    background: #fdfbf7;
+    padding: 30px 0;
+    margin-bottom: 15px;
+}
+.price {
+    color: #887050;
+    font-weight: bold;
+}
+button {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background: #444;
+}
